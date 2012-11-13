@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MaasOne.Finance.YahooFinance.Support.YIndexID">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="mDownloadComponents" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAggAEAAAgAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\YIndexID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.CountryInfo">
+    <Position X="6.25" Y="3.5" Width="2" />
+    <Members>
+      <Field Name="mCurrency" Hidden="true" />
+      <Field Name="mDaylightSavingTimes" Hidden="true" />
+      <Field Name="mID" Hidden="true" />
+      <Field Name="mIndices" Hidden="true" />
+      <Field Name="mName" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Currency" Type="MaasOne.Finance.YahooFinance.Support.CurrencyInfo" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.812" Y="5.44" />
+        <Point X="6.812" Y="6.732" />
+        <Point X="6.125" Y="6.732" />
+        <Point X="6.125" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAEAAggAEAAAAAAQACAAAAAgCAAgAAAAAAAA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\CountryInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DaylightSavingTimes" />
+      <Property Name="Currency" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.DaylightSavingTime">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="mEndDate" Hidden="true" />
+      <Field Name="mStartDate" Hidden="true" />
+      <Field Name="mYear" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgACABAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAACA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\DaylightSavingTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.WorldMarket">
+    <Position X="1.25" Y="4.75" Width="2.25" />
+    <Members>
+      <Field Name="mCountries" Hidden="true" />
+      <Field Name="mCurrencies" Hidden="true" />
+      <Field Name="mStockExchanges" Hidden="true" />
+      <Method Name="WorldMarket" Hidden="true" />
+    </Members>
+    <AssociationLine Name="DefaultCountries" Type="MaasOne.Finance.YahooFinance.Support.CountryInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="4.75" />
+        <Point X="3" Y="4.178" />
+        <Point X="6.25" Y="4.178" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="DefaultCurrencies" Type="MaasOne.Finance.YahooFinance.Support.CurrencyInfo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="6.434" />
+        <Point X="5.125" Y="6.434" />
+        <Point X="5.125" Y="7.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgEgAAABAAQAAAEAAAAgAAAAAAAAAABAAgAGACAIgAQ=</HashCode>
+      <FileName>Finance\YahooFinance\Support\WorldMarket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DefaultCurrencies" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DefaultCountries" />
+      <Property Name="AllFinanceIndices" />
+      <Property Name="DefaultStockExchanges" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.CurrencyInfo">
+    <Position X="4.5" Y="7.75" Width="2" />
+    <Members>
+      <Field Name="mID" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAggAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\CurrencyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.StockExchange">
+    <Position X="7" Y="10.25" Width="2" />
+    <Members>
+      <Field Name="mCountry" Hidden="true" />
+      <Field Name="mID" Hidden="true" />
+      <Field Name="mName" Hidden="true" />
+      <Field Name="mSuffix" Hidden="true" />
+      <Field Name="mTags" Hidden="true" />
+      <Field Name="mTradingTime" Hidden="true" />
+      <Property Name="Tags" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Country" Type="MaasOne.Finance.YahooFinance.Support.CountryInfo">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.827" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAEEAAAAAAgEAGAAAAAAQAAAIAAEAAACgAAAAAABA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\StockExchange.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Country" />
+      <Property Name="TradingTime" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.Support.TradingTimeInfo">
+    <Position X="10.75" Y="8" Width="2.25" />
+    <Members>
+      <Field Name="mDaylightSavingTimes" Hidden="true" />
+      <Field Name="mDelayMinutes" Hidden="true" />
+      <Field Name="mHolidays" Hidden="true" />
+      <Field Name="mLocalOpeningTime" Hidden="true" />
+      <Field Name="mTradingDays" Hidden="true" />
+      <Field Name="mTradingSpan" Hidden="true" />
+      <Field Name="mUtcOffsetStandardTime" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CACAAAACRAEBAAAAAgAAAEIAEAAEAkgAAQCAQAAAAEA=</HashCode>
+      <FileName>Finance\YahooFinance\Support\StockExchange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

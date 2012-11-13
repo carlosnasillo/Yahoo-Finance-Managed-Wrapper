@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3C55947-1D21-401B-802C-DBF156061B3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaasOne</RootNamespace>
+    <AssemblyName>MaasOne.Yahoo</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\MaasOne.Yahoo.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <DocumentationFile>bin\Release\MaasOne.Yahoo.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\MaasOne.Yahoo.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\MaasOne.Yahoo.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\MaasOne.Yahoo.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\MaasOne.Yahoo.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Finance\YahooPortfolio\Enums.cs" />
+    <Compile Include="Finance\YahooPortfolio\HoldingsDownload.cs" />
+    <Compile Include="Base\Html2XmlDownload.cs" />
+    <Compile Include="Base\WebFormUpload.cs" />
+    <Compile Include="Base\WebFormUpload_Desktopspecific.cs" />
+    <Compile Include="Finance\YahooPortfolio\PortfolioDownload.cs" />
+    <Compile Include="Finance\YahooPortfolio\PortfolioDownload_DesktopSpecific.cs" />
+    <Compile Include="Base\PostDataUpload.cs" />
+    <Compile Include="Finance\YahooPortfolio\SimpleID.cs" />
+    <Compile Include="Finance\YahooPortfolio\YPortfolioManager.cs" />
+    <Compile Include="Finance\YahooFinance\FuturesChainDownload.cs" />
+    <Compile Include="Finance\YahooFinance\FuturesChainDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\ImportExport.cs" />
+    <Compile Include="Finance\YahooPortfolio\PortfolioInfoDownload.cs" />
+    <Compile Include="Finance\YahooPortfolio\YPortfolioManager_DesktopSpecific.cs" />
+    <Compile Include="Link.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Finance\YahooScreener\BondScreenerDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooScreener\BondScreenerInfoDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooScreener\Enums.cs" />
+    <Compile Include="Finance\YahooScreener\StockScreenerDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\Support\ExchangeRateCalculator_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\Support\ExchangeRateDownload_DesktopSpecific.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\YahooFinance\AlphabeticIDIndexDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\ChartDownload.cs" />
+    <Compile Include="Finance\YahooFinance\ChartDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyInfoDownload.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyInfoDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyProfileDownload.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyProfileDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyStatisticsDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\HistQuotesDownload.cs" />
+    <Compile Include="Finance\YahooFinance\HistQuotesDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\IDSearchDownload.cs" />
+    <Compile Include="Finance\YahooFinance\IDSearchDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\MarketDownload.cs" />
+    <Compile Include="Finance\YahooFinance\MarketDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\MarketQuotesDownload.cs" />
+    <Compile Include="Finance\YahooFinance\MarketQuotesDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\QuoteOptionsDownload.cs" />
+    <Compile Include="Finance\YahooFinance\QuoteOptionsDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\QuotesDownload.cs" />
+    <Compile Include="Finance\YahooFinance\QuotesDownload_DesktopSpecific.cs" />
+    <Compile Include="Finance\YahooFinance\Enums.cs" />
+    <Compile Include="Finance\YahooFinance\FinanceHelper.cs" />
+    <Compile Include="Finance\YahooFinance\AlphabeticIDIndexDownload.cs" />
+    <Compile Include="Finance\YahooFinance\CompanyStatisticsDownload.cs" />
+    <Compile Include="Finance\YahooScreener\BondScreenerDownload.cs" />
+    <Compile Include="Finance\YahooScreener\BondScreenerInfoDownload.cs" />
+    <Compile Include="Finance\YahooScreener\StockScreenerDownload.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\AnalystEstimatesCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\BalanceSheetCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\BaseCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\CashFlow.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\DesriptiveCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\DividendsCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\Growth.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\IncomeStatementsCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\MarginCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\OwnershipCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\ProfitabilityCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\SharePerformanceCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\TradingAndVolumeCriterias.cs" />
+    <Compile Include="Finance\YahooScreener\Criterias\ValuationCriterias.cs" />
+    <Compile Include="Geo\Enums.cs" />
+    <Compile Include="Geo\GeoPlanet\PlacesDownload.cs" />
+    <Compile Include="Geo\GeoPlanet\PlacesDownload_DesktopSpecific.cs" />
+    <Compile Include="Geo\GeoPlanet\Enums.cs" />
+    <Compile Include="Geo\IPlace.cs" />
+    <Compile Include="Geo\PlaceFinder\PlaceFinderDownload.cs" />
+    <Compile Include="Geo\PlaceFinder\PlaceFinderDownload_DesktopSpecific.cs" />
+    <Compile Include="Geo\PlaceFinder\PlaceFinderSettings.cs" />
+    <Compile Include="Geo\PlaceFinder\Enums.cs" />
+    <Compile Include="Geo\PlaceFinder\PlaceFinderException.cs" />
+    <Compile Include="Finance\YahooFinance\Support\CountryInfo.cs" />
+    <Compile Include="Finance\YahooFinance\Support\CurrencyInfo.cs" />
+    <Compile Include="Finance\YahooFinance\Support\DaylightSavingTime.cs" />
+    <Compile Include="Finance\YahooFinance\Support\ExchangeRateCalculator.cs" />
+    <Compile Include="Finance\YahooFinance\Support\ExchangeRateDownload.cs" />
+    <Compile Include="Finance\YahooFinance\Support\StockExchange.cs" />
+    <Compile Include="Finance\YahooFinance\Support\WorldMarket.cs" />
+    <Compile Include="Finance\YahooFinance\Support\YCurrencyID.cs" />
+    <Compile Include="Finance\YahooFinance\Support\YID.cs" />
+    <Compile Include="Finance\YahooFinance\Support\YIndexID.cs" />
+    <Compile Include="Search\BOSS\OAuth.cs" />
+    <Compile Include="Search\BOSS\SearchData.cs" />
+    <Compile Include="YAccountManager.cs" />
+    <Compile Include="YAccountManager_DesktopSpecific.cs" />
+    <Compile Include="YahooExtensions.cs" />
+    <Compile Include="YahooHelper.cs" />
+    <Compile Include="Search\BOSS\SearchDownload.cs" />
+    <Compile Include="Search\BOSS\SearchDownload_DesktopSpecific.cs" />
+    <Compile Include="Search\BOSS\SearchSettings.cs" />
+    <Compile Include="Search\BOSS\Thumbnail.cs" />
+    <Compile Include="Search\BOSS\WebFileTypeGroup.cs" />
+    <Compile Include="Search\BOSS\RelatedSuggestionsDownload.cs" />
+    <Compile Include="Search\BOSS\RelatedSuggestionsDownload_DesktopSpecific.cs" />
+    <Compile Include="Search\BOSS\Enums.cs" />
+    <Compile Include="Search\BOSS\SearchResult.cs" />
+    <Compile Include="Weather\YahooWeather\LocationIDSearchDownload.cs" />
+    <Compile Include="Weather\YahooWeather\LocationIDSearchDownload_DesktopSpecific.cs" />
+    <Compile Include="Weather\YahooWeather\WeatherFeedDownload.cs" />
+    <Compile Include="Weather\YahooWeather\WeatherFeedDownload_DesktopSpecific.cs" />
+    <Compile Include="Weather\YahooWeather\Conditions.cs" />
+    <Compile Include="Weather\YahooWeather\Enums.cs" />
+    <Compile Include="Weather\YahooWeather\Infos.cs" />
+    <Compile Include="Weather\YahooWeather\LocationID.cs" />
+    <Compile Include="Weather\YahooWeather\LocationInfo.cs" />
+    <Compile Include="Weather\YahooWeather\WeatherFeed.cs" />
+    <Compile Include="YahooLocalizationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Finance\YahooFinance\Support\market.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagrams\QuotesDownload.cd" />
+    <None Include="Class Diagrams\WorldMarket.cd" />
+    <None Include="localization.csv" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MaasOne\MaasOne.csproj">
+      <Project>{203E203C-9025-4D3F-BAD7-F36D53E8B9E7}</Project>
+      <Name>MaasOne</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

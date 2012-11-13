@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="after_mkt_price_and_time" xml:space="preserve">
+    <value>Last Trd Time &amp; Price (Aft Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_after_mkt_change" xml:space="preserve">
+    <value>After Mkt Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_after_mkt_change_and_percent" xml:space="preserve">
+    <value>After Mkt Chg &amp; %</value>
+  </data>
+  <data name="fin_pf_viewColumn_after_mkt_percent_change" xml:space="preserve">
+    <value>Aft Mkt % Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_after_mkt_price" xml:space="preserve">
+    <value>Last Trd (Aft Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_after_mkt_time" xml:space="preserve">
+    <value>Last Trd Time (Aft Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_annualized_gain" xml:space="preserve">
+    <value>Annualized Gain</value>
+  </data>
+  <data name="fin_pf_viewColumn_ask_price" xml:space="preserve">
+    <value>Ask</value>
+  </data>
+  <data name="fin_pf_viewColumn_ask_size" xml:space="preserve">
+    <value>Ask Size</value>
+  </data>
+  <data name="fin_pf_viewColumn_avg_daily_volume" xml:space="preserve">
+    <value>Avg Vol</value>
+  </data>
+  <data name="fin_pf_viewColumn_bid_price" xml:space="preserve">
+    <value>Bid</value>
+  </data>
+  <data name="fin_pf_viewColumn_bid_size" xml:space="preserve">
+    <value>Bid Size</value>
+  </data>
+  <data name="fin_pf_viewColumn_book_value" xml:space="preserve">
+    <value>Book Val</value>
+  </data>
+  <data name="fin_pf_viewColumn_change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="fin_pf_viewColumn_change_and_percent" xml:space="preserve">
+    <value>Chg &amp; % Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_change_fiftytwo_week_high" xml:space="preserve">
+    <value>Chg 52-Wk Low</value>
+  </data>
+  <data name="fin_pf_viewColumn_change_fiftytwo_week_low" xml:space="preserve">
+    <value>Chg 52-Wk High</value>
+  </data>
+  <data name="fin_pf_viewColumn_comment" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="fin_pf_viewColumn_commission" xml:space="preserve">
+    <value>Commission</value>
+  </data>
+  <data name="fin_pf_viewColumn_currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_high" xml:space="preserve">
+    <value>Day High</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_low" xml:space="preserve">
+    <value>Day Low</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_range" xml:space="preserve">
+    <value>Day's Low &amp; High</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_value_change" xml:space="preserve">
+    <value>Day's Val Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_value_change_and_percent" xml:space="preserve">
+    <value>Day's Val Chg &amp; %</value>
+  </data>
+  <data name="fin_pf_viewColumn_day_value_percent_change" xml:space="preserve">
+    <value>Day's Val % Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_dividend_pay_date" xml:space="preserve">
+    <value>Ex-Div Date</value>
+  </data>
+  <data name="fin_pf_viewColumn_dividend_per_share" xml:space="preserve">
+    <value>Div/Share</value>
+  </data>
+  <data name="fin_pf_viewColumn_dividend_yield" xml:space="preserve">
+    <value>Yield</value>
+  </data>
+  <data name="fin_pf_viewColumn_ebitda" xml:space="preserve">
+    <value>EBITDA</value>
+  </data>
+  <data name="fin_pf_viewColumn_eps" xml:space="preserve">
+    <value>EPS</value>
+  </data>
+  <data name="fin_pf_viewColumn_eps_est_current_year" xml:space="preserve">
+    <value>EPS Est Curr Yr</value>
+  </data>
+  <data name="fin_pf_viewColumn_eps_est_next_quarter" xml:space="preserve">
+    <value>EPS Est Next Qtr</value>
+  </data>
+  <data name="fin_pf_viewColumn_eps_est_next_year" xml:space="preserve">
+    <value>EPS Est Next Yr</value>
+  </data>
+  <data name="fin_pf_viewColumn_exchange" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="fin_pf_viewColumn_ex_dividend_date" xml:space="preserve">
+    <value>Ex-Div Date</value>
+  </data>
+  <data name="fin_pf_viewColumn_fiftytwo_week_high" xml:space="preserve">
+    <value>52-Wk High</value>
+  </data>
+  <data name="fin_pf_viewColumn_fiftytwo_week_low" xml:space="preserve">
+    <value>52-Wk Low</value>
+  </data>
+  <data name="fin_pf_viewColumn_fiftytwo_week_range" xml:space="preserve">
+    <value>52-Wk Range</value>
+  </data>
+  <data name="fin_pf_viewColumn_fifty_day_ma" xml:space="preserve">
+    <value>50-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_fifty_day_ma_change" xml:space="preserve">
+    <value>Chg from 50-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_fifty_day_ma_percent_change" xml:space="preserve">
+    <value>% Chg from 50-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_float_shares" xml:space="preserve">
+    <value>Float Shares</value>
+  </data>
+  <data name="fin_pf_viewColumn_high_limit" xml:space="preserve">
+    <value>High Limit</value>
+  </data>
+  <data name="fin_pf_viewColumn_holdings_gain" xml:space="preserve">
+    <value>Holdings Gain</value>
+  </data>
+  <data name="fin_pf_viewColumn_holdings_gain_and_percent" xml:space="preserve">
+    <value>Gain &amp; % Gain</value>
+  </data>
+  <data name="fin_pf_viewColumn_holdings_percent_gain" xml:space="preserve">
+    <value>Holdings % Gain</value>
+  </data>
+  <data name="fin_pf_viewColumn_holdings_value" xml:space="preserve">
+    <value>Mkt Value</value>
+  </data>
+  <data name="fin_pf_viewColumn_last_trade_size" xml:space="preserve">
+    <value>Last Trd Size</value>
+  </data>
+  <data name="fin_pf_viewColumn_low_limit" xml:space="preserve">
+    <value>Low Limit</value>
+  </data>
+  <data name="fin_pf_viewColumn_market_cap" xml:space="preserve">
+    <value>Mkt Cap</value>
+  </data>
+  <data name="fin_pf_viewColumn_more_info" xml:space="preserve">
+    <value>More Info</value>
+  </data>
+  <data name="fin_pf_viewColumn_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="fin_pf_viewColumn_one_year_target" xml:space="preserve">
+    <value>1-Yr Trgt Price</value>
+  </data>
+  <data name="fin_pf_viewColumn_open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="fin_pf_viewColumn_peg_ratio" xml:space="preserve">
+    <value>PEG Ratio</value>
+  </data>
+  <data name="fin_pf_viewColumn_percent_change" xml:space="preserve">
+    <value>% Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_percent_change_fiftytwo_week_high" xml:space="preserve">
+    <value>% Chg from 52-Wk Low</value>
+  </data>
+  <data name="fin_pf_viewColumn_percent_change_fiftytwo_week_low" xml:space="preserve">
+    <value>% Chg from 52-Wk High</value>
+  </data>
+  <data name="fin_pf_viewColumn_pe_ratio" xml:space="preserve">
+    <value>P/E</value>
+  </data>
+  <data name="fin_pf_viewColumn_pe_ratio_next_year" xml:space="preserve">
+    <value>P/E Next Yr</value>
+  </data>
+  <data name="fin_pf_viewColumn_prev_close" xml:space="preserve">
+    <value>Prev Close</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_after_mkt_price_and_time" xml:space="preserve">
+    <value>Last Trd Time &amp; Price (Pre/Aft Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_change" xml:space="preserve">
+    <value>Pre Mkt Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_change_and_percent" xml:space="preserve">
+    <value>Pre Mkt Chg &amp; %</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_percent_change" xml:space="preserve">
+    <value>Pre Mkt % Chg</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_price" xml:space="preserve">
+    <value>Last Trd (Pre Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_price_and_time" xml:space="preserve">
+    <value>Last Trd Time &amp; Price (Pre Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_pre_mkt_time" xml:space="preserve">
+    <value>Last Trd Time (Pre Mkt)</value>
+  </data>
+  <data name="fin_pf_viewColumn_price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_and_time" xml:space="preserve">
+    <value>Time &amp; Price</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_paid" xml:space="preserve">
+    <value>Price Paid</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_per_book" xml:space="preserve">
+    <value>Price/Book</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_per_eps_est_current_year" xml:space="preserve">
+    <value>Price/EPS Est Curr Yr</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_per_eps_est_next_year" xml:space="preserve">
+    <value>Price/EPS Est Next Yr</value>
+  </data>
+  <data name="fin_pf_viewColumn_price_per_sales" xml:space="preserve">
+    <value>Price/Sales</value>
+  </data>
+  <data name="fin_pf_viewColumn_shares_out" xml:space="preserve">
+    <value>Shares Out</value>
+  </data>
+  <data name="fin_pf_viewColumn_shares_owned" xml:space="preserve">
+    <value>Shares</value>
+  </data>
+  <data name="fin_pf_viewColumn_short_ratio" xml:space="preserve">
+    <value>Short Ratio</value>
+  </data>
+  <data name="fin_pf_viewColumn_sparkline" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="fin_pf_viewColumn_symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="fin_pf_viewColumn_time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="fin_pf_viewColumn_trade_date" xml:space="preserve">
+    <value>Trd Date</value>
+  </data>
+  <data name="fin_pf_viewColumn_twohundred_day_ma" xml:space="preserve">
+    <value>200-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_twohundred_day_ma_change" xml:space="preserve">
+    <value>Chg from 200-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_twohundred_day_ma_percent_change" xml:space="preserve">
+    <value>% Chg from 200-Day MA</value>
+  </data>
+  <data name="fin_pf_viewColumn_volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+</root>

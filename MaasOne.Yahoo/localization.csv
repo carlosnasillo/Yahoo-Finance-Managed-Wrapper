@@ -1,0 +1,311 @@
+﻿id;en-US;de-DE;es-ES;fr-FR
+fin_pf_viewColumn_after_mkt_price_and_time;Last Trd Time & Price (Aft Mkt);Zeit / Kurs (nachbörsl.);Ultima transacción y precio (Post Mercado);Cours dernier (aprés Bourse)
+fin_pf_viewColumn_after_mkt_change;After Mkt Chg;Nachbörsl. Veränd;Cambio post merc;Var. aprés Bourse
+fin_pf_viewColumn_after_mkt_change_and_percent;After Mkt Chg & %;Nachbörsl. Veränd ;Cambio post merc y %;Var. et % (aprés Bourse)
+fin_pf_viewColumn_after_mkt_percent_change;Aft Mkt % Chg;Nachbörsl. Veränd. (%);% cambio post merc;Var. % (aprés Bourse)
+fin_pf_viewColumn_after_mkt_price;Last Trd (Aft Mkt);Letzter Trade (nachbörsl.);Última trans (post merc);Dernier échange (aprés Bourse)
+fin_pf_viewColumn_after_mkt_time;Last Trd Time (Aft Mkt);Letzter Trade Zeit (nachbörsl.);Última hora de trans (post merc);Heure dernier (aprés Bourse)
+fin_pf_viewColumn_annualized_gain;Annualized Gain;Gewinn (Jahresbasis);Beneficios anuales;Gain annualisé
+fin_pf_viewColumn_ask_price;Ask;Briefkurs;Demandía;Vente
+fin_pf_viewColumn_ask_size;Ask Size;Angebotsvolumen;Precio de la demandía;Volume offert
+fin_pf_viewColumn_avg_daily_volume;Avg Vol;Ø Volumen;Vol medio;Vol. jour moyen
+fin_pf_viewColumn_bid_price;Bid;Geldkurs;Oferta;Achat
+fin_pf_viewColumn_bid_size;Bid Size;Nachfragevolumen;Tamaño de la oferta;Volume demandó
+fin_pf_viewColumn_book_value;Book Val;Buchwert;Valor de balance;Val. comptable
+fin_pf_viewColumn_change;Change;Veränderung;Cambio;Variation
+fin_pf_viewColumn_change_and_percent;Chg & % Chg;Veränderung;Cambio;Var. et %
+fin_pf_viewColumn_change_fiftytwo_week_high;Chg 52-Wk Low;Veränderung gegenüber 52W Hoch;Cambio del Máximo de 52 semanas;Var. + haut/an
+fin_pf_viewColumn_change_fiftytwo_week_low;Chg 52-Wk High;Veränderung gegenüber 52W Tief;Cambio del mínimo en 52 semanas;Var. + bas/an
+fin_pf_viewColumn_comment;Notes;Anmerkungen;Notas;Notes
+fin_pf_viewColumn_commission;Commission;Kommission;Comisión;Commission
+fin_pf_viewColumn_currency;Currency;Währung;Divisa;Devise
+fin_pf_viewColumn_day_high;Day High;Tageshoch;Máximo del día;+ haut du jour
+fin_pf_viewColumn_day_low;Day Low;Tagestief;mínimo del día;+ bas du jour
+fin_pf_viewColumn_day_range;Day's Low & High;Tagesspanne;Máximo y mínimo del día;Plus hauts et plus bas du jour
+fin_pf_viewColumn_day_value_change;Day's Val Chg;Tageswert Veränd;Cambio en valor del día;Var. jour
+fin_pf_viewColumn_day_value_change_and_percent;Day's Val Chg & %;Tageswert Veränd ;Cambio en valor y % del día;Var. jour
+fin_pf_viewColumn_day_value_percent_change;Day's Val % Chg;Tageswert Veränd. (%);Cambio en valor % del día;% Var val. du jour
+fin_pf_viewColumn_dividend_pay_date;Ex-Div Date;Div Tag der Zahlung;Tasa de pago de dividendo;date dividende
+fin_pf_viewColumn_dividend_per_share;Div/Share;Div/Aktie;Div/Acc;Div/act.
+fin_pf_viewColumn_dividend_yield;Yield;Rendite;Rendim. dividendo;Rendement
+fin_pf_viewColumn_ebitda;EBITDA;EBITDA;EBITDA;EBITDA
+fin_pf_viewColumn_eps;EPS;EPS;Benef x acción;BPA
+fin_pf_viewColumn_eps_est_current_year;EPS Est Curr Yr;EPS geschätzt (aktuelles Jahr);BPA Est (año actual);Estimation EPS Année en cours
+fin_pf_viewColumn_eps_est_next_quarter;EPS Est Next Qtr;EPS geschätzt (nächstes Quartal);BPA Est (próximo trimestre);BPA estimé T+1
+fin_pf_viewColumn_eps_est_next_year;EPS Est Next Yr;EPS geschätzt (nächstes Jahr);BPA Est (próximo año);BPA estimé année +1
+fin_pf_viewColumn_ex_dividend_date;Ex-Div date;Ex-Div.-date;Fecha Ex-Dividendo;date ex-div.
+fin_pf_viewColumn_exchange;Exchange;Börsenplatz;Cambio;Change
+fin_pf_viewColumn_fifty_day_ma;50-day MA;50-Tage MA;50 días MA;MM50
+fin_pf_viewColumn_fifty_day_ma_change;Chg from 50-day MA;Veränd. Von 50-Tage MA;Cambio de 50 días MA;Var. sur MM50
+fin_pf_viewColumn_fifty_day_ma_percent_change;% Chg from 50-day MA;% Veränd. von 50-Tage MA;% cambio de 50 días MA;% var. sur MM50
+fin_pf_viewColumn_fiftytwo_week_high;52-Wk High;52W Hoch;Máximo en 52 semanas;+ Haut/an
+fin_pf_viewColumn_fiftytwo_week_low;52-Wk Low;52W Tief;mínimo en 52 semanas;+ Bas/an
+fin_pf_viewColumn_fiftytwo_week_range;52-Wk Range;52W Spanne;Rango 52semanas;Sur 1 an
+fin_pf_viewColumn_float_shares;Float Shares;Aktien im Umlauf;Acciones flotantes;Flottant
+fin_pf_viewColumn_high_limit;High Limit;Limit (Hoch);Límite Máximo;Limite sup.
+fin_pf_viewColumn_holdings_gain;Holdings Gain;Kursgewinn;Ganancias;Gain titres
+fin_pf_viewColumn_holdings_gain_and_percent;Gain & % Gain;Kursgewinn und prozent. Gewinn;Beneficio;Gain et %
+fin_pf_viewColumn_holdings_percent_gain;Holdings % Gain;Gewinn Holdings (%);Activos % Ganancia;Gain %
+fin_pf_viewColumn_holdings_value;Mkt Value;Wert;Valor de mercado;Valeur
+fin_pf_viewColumn_last_trade_size;Last Trd Size;Letzter Trade Volumen;Último volumen de trans;Volume d'échange
+fin_pf_viewColumn_low_limit;Low Limit;Limit (Tief);Límite bajo;Limite Inf.
+fin_pf_viewColumn_market_cap;Mkt Cap;Marktkap.;Capitalización;Cap. boursière
+fin_pf_viewColumn_more_info;More Info;Mehr;Más información;Plus d´info
+fin_pf_viewColumn_name;Name;Name;Nombre;Nom
+fin_pf_viewColumn_one_year_target;1-Yr Trgt Price;1 J. Zielkurs;Precio objetivo 1 año;Objectif de cours 1 an
+fin_pf_viewColumn_open;Open;Eröffnungskurs;Abierto;Ouverture
+fin_pf_viewColumn_pe_ratio;P/E;KGV;Precio/Beneficio (P/E);PER
+fin_pf_viewColumn_pe_ratio_next_year;P/E Next Yr;KGV Weiter 1 J.;Precio/Beneficio próximo año;PER Année +1
+fin_pf_viewColumn_peg_ratio;PEG Ratio;PEG-Ratio;Ratio PEG (Price/Earnings To Growth);Ratio PEG
+fin_pf_viewColumn_percent_change;% Chg;% Veränd.;% cambio;Var %
+fin_pf_viewColumn_percent_change_fiftytwo_week_high;% Chg from 52-Wk Low;Proz. Veränderung gegenüber 52W Hoch.;Porcentaje de cambio del Máximo de 52 semanas;Var % + haut/an
+fin_pf_viewColumn_percent_change_fiftytwo_week_low;% Chg from 52-Wk High;Proz. Veränderung gegenüber 52W Tief;Porcentaje de cambio del mínimo en 52 semanas;Var % + bas/an
+fin_pf_viewColumn_pre_after_mkt_price_and_time;Last Trd Time & Price (Pre/Aft Mkt);Zeit / Kurs (vor-/nachbörsl.);Ultima transacción y precio (Pre/Post Mercado);Dernier (avant/aprés Bourse)
+fin_pf_viewColumn_pre_mkt_change;Pre Mkt Chg;Vorbörsl. Veränderung;Cambio pre merc;Var. pré-Bourse
+fin_pf_viewColumn_pre_mkt_change_and_percent;Pre Mkt Chg & %;Vorbörsl. Veränderung ;Cambio pre merc y %;Var et % avant Bourse
+fin_pf_viewColumn_pre_mkt_percent_change;Pre Mkt % Chg;Vorbörsl. Veränd. (%);% cambio pre merc;Variation avant Bourse (%)
+fin_pf_viewColumn_pre_mkt_price;Last Trd (Pre Mkt);Letzter Trade (vorbörsl.);Última trans (pre merc);Dernier échange (avant Bourse)
+fin_pf_viewColumn_pre_mkt_price_and_time;Last Trd Time & Price (Pre Mkt);Zeit / Kurs (vorbörslich);Ultima transacción y precio (Pre mercado);Dernier (avant Bourse)
+fin_pf_viewColumn_pre_mkt_time;Last Trd Time (Pre Mkt);Letzter Trade Zeit (vorbörsl.);Última hora de trans (pre merc);Heure Dernier échange (avant Bourse)
+fin_pf_viewColumn_prev_close;Prev Close;Letzt. Schlußk;Cierre anterior;Clôture préc.
+fin_pf_viewColumn_price;Price;Kurs;Precio;Cours
+fin_pf_viewColumn_price_and_time;Time & Price;Zeit / Kurs;Hora y precio;Dernier
+fin_pf_viewColumn_price_paid;Price Paid;Gezahlter Preis;Precio;Prix Payé
+fin_pf_viewColumn_price_per_book;Price/Book;Kurs/Buch;Precio/Compra;Cours/Comptable
+fin_pf_viewColumn_price_per_eps_est_current_year;Price/EPS Est Curr Yr;Kurs/EPS geschätzt (aktuelles Jahr);Estimado año actual de precio/BPA;Est Cours/BPA Année en cours
+fin_pf_viewColumn_price_per_eps_est_next_year;Price/EPS Est Next Yr;Kurs/EPS Schätzung nächstes Jahr;Precio/BPA estimado próximo año;Cours/BPA estimé année +1
+fin_pf_viewColumn_price_per_sales;Price/Sales;Kurs/Verkäufe;Precio/Ventas;Cours/Ventes
+fin_pf_viewColumn_shares_out;Shares Out;Aktien im Umlauf;Acciones fuera;Répartitions
+fin_pf_viewColumn_shares_owned;Shares;Gehaltene Aktien;Acciones;Titres
+fin_pf_viewColumn_short_ratio;Short Ratio;Short-Ratio;Parcial corto;Ratio de VAD
+fin_pf_viewColumn_sparkline;Chart;Chart;Grífico;Graphique
+fin_pf_viewColumn_symbol;Symbol;Symbol;Símbolo;Symbole
+fin_pf_viewColumn_time;Time;Letzte Trade Zeit;Última hora de trans;Heure Dernier échange
+fin_pf_viewColumn_trade_date;Trd date;Trade-datum;Fecha de trans;date d'éch.
+fin_pf_viewColumn_twohundred_day_ma;200-day MA;200-Tage MA;200 días MA;MM200
+fin_pf_viewColumn_twohundred_day_ma_change;Chg from 200-day MA;Veränd. von 200-Tage MA;Cambio de 200 días MA;Var. sur MM200
+fin_pf_viewColumn_twohundred_day_ma_percent_change;% Chg from 200-day MA;% Veränd. von 200-Tage MA;% cambio de 200 días MA;% var. sur MM200
+fin_yf_sector_Basic_Materials;Basic Materials;;;
+fin_yf_sector_Conglomerates;Conglomerates;;;
+fin_yf_sector_Consumer_Goods;Consumer Goods;;;
+fin_yf_sector_Financial;Financial;;;
+fin_yf_sector_Healthcare;Healthcare;;;
+fin_yf_sector_Industrial_Goods;Industrial Goods;;;
+fin_yf_sector_Services;Services;;;
+fin_yf_sector_Technology;Technology;;;
+fin_yf_sector_Utilities;Utilities;;;
+fin_yf_industry_Chemicals_Major_Diversified;Chemicals - Major Diversified;;;
+fin_yf_industry_Synthetics;Synthetics;;;
+fin_yf_industry_Agricultural_Chemicals;Agricultural Chemicals;;;
+fin_yf_industry_Specialty_Chemicals;Specialty Chemicals;;;
+fin_yf_industry_Major_Integrated_Oil_And_Gas;Major Integrated Oil & Gas;;;
+fin_yf_industry_Independent_Oil_And_Gas;Independent Oil & Gas;;;
+fin_yf_industry_Oil_And_Gas_Refining_And_Marketing;Oil & Gas Refining & Marketing;;;
+fin_yf_industry_Oil_And_Gas_Drilling_And_Exploration;Oil & Gas Drilling & Exploration;;;
+fin_yf_industry_Oil_And_Gas_Equipment_And_Services;Oil & Gas Equipment & Services;;;
+fin_yf_industry_Oil_And_Gas_Pipelines;Oil & Gas Pipelines;;;
+fin_yf_industry_Steel_And_Iron;Steel & Iron;;;
+fin_yf_industry_Copper;Copper;;;
+fin_yf_industry_Aluminum;Aluminum;;;
+fin_yf_industry_Industrial_Metals_And_Minerals;Industrial Metals & Minerals;;;
+fin_yf_industry_Gold;Gold;;;
+fin_yf_industry_Silver;Silver;;;
+fin_yf_industry_Nonmetallic_Mineral_Mining;Nonmetallic Mineral Mining;;;
+fin_yf_industry_Conglomerates;Conglomerates;;;
+fin_yf_industry_Appliances;Appliances;;;
+fin_yf_industry_Home_Furnishings_And_Fixtures;Home Furnishings & Fixtures;;;
+fin_yf_industry_Housewares_And_Accessories;Housewares & Accessories;;;
+fin_yf_industry_Business_Equipment;Business Equipment;;;
+fin_yf_industry_Electronic_Equipment;Electronic Equipment;;;
+fin_yf_industry_Toys_And_Games;Toys & Games;;;
+fin_yf_industry_Sporting_Goods;Sporting Goods;;;
+fin_yf_industry_Recreational_Goods_Other;Recreational Goods, Other;;;
+fin_yf_industry_Photographic_Equipment_And_Supplies;Photographic Equipment & Supplies;;;
+fin_yf_industry_Textile_Apparel_Clothing;Textile - Apparel Clothing;;;
+fin_yf_industry_Textile_Apparel_Footwear_And_Accessories;Textile - Apparel Footwear & Accessories;;;
+fin_yf_industry_Rubber_And_Plastics;Rubber & Plastics;;;
+fin_yf_industry_Personal_Products;Personal Products;;;
+fin_yf_industry_Paper_And_Paper_Products;Paper & Paper Products;;;
+fin_yf_industry_Packaging_And_Containers;Packaging & Containers;;;
+fin_yf_industry_Cleaning_Products;Cleaning Products;;;
+fin_yf_industry_Office_Supplies;Office Supplies;;;
+fin_yf_industry_Auto_Manufacturers_Major;Auto Manufacturers - Major;;;
+fin_yf_industry_Trucks_And_Other_Vehicles;Trucks & Other Vehicles;;;
+fin_yf_industry_Recreational_Vehicles;Recreational Vehicles;;;
+fin_yf_industry_Auto_Parts;Auto Parts;;;
+fin_yf_industry_Food_Major_Diversified;Food - Major Diversified;;;
+fin_yf_industry_Farm_Products;Farm Products;;;
+fin_yf_industry_Processed_And_Packaged_Goods;Processed & Packaged Goods;;;
+fin_yf_industry_Meat_Products;Meat Products;;;
+fin_yf_industry_Dairy_Products;Dairy Products;;;
+fin_yf_industry_Confectioners;Confectioners;;;
+fin_yf_industry_Beverages_Brewers;Beverages - Brewers;;;
+fin_yf_industry_Beverages_Wineries_And_Distillers;Beverages - Wineries & Distillers;;;
+fin_yf_industry_Beverages_Soft_Drinks;Beverages - Soft Drinks;;;
+fin_yf_industry_Cigarettes;Cigarettes;;;
+fin_yf_industry_Tobacco_Products_Other;Tobacco Products, Other;;;
+fin_yf_industry_Money_Center_Banks;Money Center Banks;;;
+fin_yf_industry_Regional_Northeast_Banks;Regional - Northeast Banks;;;
+fin_yf_industry_Regional_Mid_Atlantic_Banks;Regional - Mid-Atlantic Banks;;;
+fin_yf_industry_Regional_Southeast_Banks;Regional - Southeast Banks;;;
+fin_yf_industry_Regional_Midwest_Banks;Regional - Midwest Banks;;;
+fin_yf_industry_Regional_Southwest_Banks;Regional - Southwest Banks;;;
+fin_yf_industry_Regional_Pacific_Banks;Regional - Pacific Banks;;;
+fin_yf_industry_Foreign_Money_Center_Banks;Foreign Money Center Banks;;;
+fin_yf_industry_Foreign_Regional_Banks;Foreign Regional Banks;;;
+fin_yf_industry_Savings_And_Loans;Savings & Loans;;;
+fin_yf_industry_Investment_Brokerage_National;Investment Brokerage - National;;;
+fin_yf_industry_Investment_Brokerage_Regional;Investment Brokerage - Regional;;;
+fin_yf_industry_Asset_Management;Asset Management;;;
+fin_yf_industry_Diversified_Investments;Diversified Investments;;;
+fin_yf_industry_Credit_Services;Credit Services;;;
+fin_yf_industry_Closed_End_Fund_Debt;Closed-End Fund - Debt;;;
+fin_yf_industry_Closed_End_Fund_Equity;Closed-End Fund - Equity;;;
+fin_yf_industry_Closed_End_Fund_Foreign;Closed-End Fund - Foreign;;;
+fin_yf_industry_Life_Insurance;Life Insurance;;;
+fin_yf_industry_Accident_And_Health_Insurance;Accident & Health Insurance;;;
+fin_yf_industry_Property_And_Casualty_Insurance;Property & Casualty Insurance;;;
+fin_yf_industry_Surety_And_Title_Insurance;Surety & Title Insurance;;;
+fin_yf_industry_Insurance_Brokers;Insurance Brokers;;;
+fin_yf_industry_REIT_Diversified;REIT - Diversified;;;
+fin_yf_industry_REIT_Office;REIT - Office;;;
+fin_yf_industry_REIT_Healthcare_Facilities;REIT - Healthcare Facilities;;;
+fin_yf_industry_REIT_Hotel_Motel;REIT - Hotel/Motel;;;
+fin_yf_industry_REIT_Industrial;REIT - Industrial;;;
+fin_yf_industry_REIT_Residential;REIT - Residential;;;
+fin_yf_industry_REIT_Retail;REIT - Retail;;;
+fin_yf_industry_Mortgage_Investment;Mortgage Investment;;;
+fin_yf_industry_Property_Management;Property Management;;;
+fin_yf_industry_Real_Estate_Development;Real Estate Development;;;
+fin_yf_industry_Drug_Manufacturers_Major;Drug Manufacturers - Major;;;
+fin_yf_industry_Drug_Manufacturers_Other;Drug Manufacturers - Other;;;
+fin_yf_industry_Drugs_Generic;Drugs - Generic;;;
+fin_yf_industry_Drug_Delivery;Drug Delivery;;;
+fin_yf_industry_Drug_Related_Products;Drug Related Products;;;
+fin_yf_industry_Biotechnology;Biotechnology;;;
+fin_yf_industry_Diagnostic_Substances;Diagnostic Substances;;;
+fin_yf_industry_Medical_Instruments_And_Supplies;Medical Instruments & Supplies;;;
+fin_yf_industry_Medical_Appliances_And_Equipment;Medical Appliances & Equipment;;;
+fin_yf_industry_Health_Care_Plans;Health Care Plans;;;
+fin_yf_industry_Long_Term_Care_Facilities;Long-Term Care Facilities;;;
+fin_yf_industry_Hospitals;Hospitals;;;
+fin_yf_industry_Medical_Laboratories_And_Research;Medical Laboratories & Research;;;
+fin_yf_industry_Home_Health_Care;Home Health Care;;;
+fin_yf_industry_Medical_Practitioners;Medical Practitioners;;;
+fin_yf_industry_Specialized_Health_Services;Specialized Health Services;;;
+fin_yf_industry_Aerospace_Defense_Major_Diversified;Aerospace/Defense - Major Diversified;;;
+fin_yf_industry_Aerospace_Defense_Products_And_Services;Aerospace/Defense Products & Services;;;
+fin_yf_industry_Farm_And_Construction_Machinery;Farm & Construction Machinery;;;
+fin_yf_industry_Industrial_Equipment_And_Components;Industrial Equipment & Components;;;
+fin_yf_industry_Diversified_Machinery;Diversified Machinery;;;
+fin_yf_industry_Pollution_And_Treatment_Controls;Pollution & Treatment Controls;;;
+fin_yf_industry_Machine_Tools_And_Accessories;Machine Tools & Accessories;;;
+fin_yf_industry_Small_Tools_And_Accessories;Small Tools & Accessories;;;
+fin_yf_industry_Metal_Fabrication;Metal Fabrication;;;
+fin_yf_industry_Industrial_Electrical_Equipment;Industrial Electrical Equipment;;;
+fin_yf_industry_Textile_Industrial;Textile Industrial;;;
+fin_yf_industry_Residential_Construction;Residential Construction;;;
+fin_yf_industry_Manufactured_Housing;Manufactured Housing;;;
+fin_yf_industry_Lumber_Wood_Production;Lumber, Wood Production;;;
+fin_yf_industry_Cement;Cement;;;
+fin_yf_industry_General_Building_Materials;General Building Materials;;;
+fin_yf_industry_Heavy_Construction;Heavy Construction;;;
+fin_yf_industry_General_Contractors;General Contractors;;;
+fin_yf_industry_Waste_Management;Waste Management;;;
+fin_yf_industry_Lodging;Lodging;;;
+fin_yf_industry_Resorts_And_Casinos;Resorts & Casinos;;;
+fin_yf_industry_Restaurants;Restaurants;;;
+fin_yf_industry_Specialty_Eateries;Specialty Eateries;;;
+fin_yf_industry_Gaming_Activities;Gaming Activities;;;
+fin_yf_industry_Sporting_Activities;Sporting Activities;;;
+fin_yf_industry_General_Entertainment;General Entertainment;;;
+fin_yf_industry_Advertising_Agencies;Advertising Agencies;;;
+fin_yf_industry_Marketing_Services;Marketing Services;;;
+fin_yf_industry_Entertainment_Diversified;Entertainment - Diversified;;;
+fin_yf_industry_Broadcasting_TV;Broadcasting - TV;;;
+fin_yf_industry_Broadcasting_Radio;Broadcasting - Radio;;;
+fin_yf_industry_CATV_Systems;CATV Systems;;;
+fin_yf_industry_Movie_Production_Theaters;Movie Production, Theaters;;;
+fin_yf_industry_Publishing_Newspapers;Publishing - Newspapers;;;
+fin_yf_industry_Publishing_Periodicals;Publishing - Periodicals;;;
+fin_yf_industry_Publishing_Books;Publishing - Books;;;
+fin_yf_industry_Apparel_Stores;Apparel Stores;;;
+fin_yf_industry_Department_Stores;Department Stores;;;
+fin_yf_industry_Discount_Variety_Stores;Discount, Variety Stores;;;
+fin_yf_industry_Drug_Stores;Drug Stores;;;
+fin_yf_industry_Grocery_Stores;Grocery Stores;;;
+fin_yf_industry_Electronics_Stores;Electronics Stores;;;
+fin_yf_industry_Home_Improvement_Stores;Home Improvement Stores;;;
+fin_yf_industry_Home_Furnishing_Stores;Home Furnishing Stores;;;
+fin_yf_industry_Auto_Parts_Stores;Auto Parts Stores;;;
+fin_yf_industry_Catalog_And_Mail_Order_Houses;Catalog & Mail Order Houses;;;
+fin_yf_industry_Sporting_Goods_Stores;Sporting Goods Stores;;;
+fin_yf_industry_Toy_And_Hobby_Stores;Toy & Hobby Stores;;;
+fin_yf_industry_Jewelry_Stores;Jewelry Stores;;;
+fin_yf_industry_Music_And_Video_Stores;Music & Video Stores;;;
+fin_yf_industry_Auto_Dealerships;Auto Dealerships;;;
+fin_yf_industry_Specialty_Retail_Other;Specialty Retail, Other;;;
+fin_yf_industry_Auto_Parts_Wholesale;Auto Parts Wholesale;;;
+fin_yf_industry_Building_Materials_Wholesale;Building Materials Wholesale;;;
+fin_yf_industry_Industrial_Equipment_Wholesale;Industrial Equipment Wholesale;;;
+fin_yf_industry_Electronics_Wholesale;Electronics Wholesale;;;
+fin_yf_industry_Medical_Equipment_Wholesale;Medical Equipment Wholesale;;;
+fin_yf_industry_Computers_Wholesale;Computers Wholesale;;;
+fin_yf_industry_Drugs_Wholesale;Drugs Wholesale;;;
+fin_yf_industry_Food_Wholesale;Food Wholesale;;;
+fin_yf_industry_Basic_Materials_Wholesale;Basic Materials Wholesale;;;
+fin_yf_industry_Wholesale_Other;Wholesale, Other;;;
+fin_yf_industry_Business_Services;Business Services;;;
+fin_yf_industry_Rental_And_Leasing_Services;Rental & Leasing Services;;;
+fin_yf_industry_Personal_Services;Personal Services;;;
+fin_yf_industry_Consumer_Services;Consumer Services;;;
+fin_yf_industry_Staffing_And_Outsourcing_Services;Staffing & Outsourcing Services;;;
+fin_yf_industry_Security_And_Protection_Services;Security & Protection Services;;;
+fin_yf_industry_Education_And_Training_Services;Education & Training Services;;;
+fin_yf_industry_Technical_Services;Technical Services;;;
+fin_yf_industry_Research_Services;Research Services;;;
+fin_yf_industry_Management_Services;Management Services;;;
+fin_yf_industry_Major_Airlines;Major Airlines;;;
+fin_yf_industry_Regional_Airlines;Regional Airlines;;;
+fin_yf_industry_Air_Services_Other;Air Services, Other;;;
+fin_yf_industry_Air_Delivery_And_Freight_Services;Air Delivery & Freight Services;;;
+fin_yf_industry_Trucking;Trucking;;;
+fin_yf_industry_Shipping;Shipping;;;
+fin_yf_industry_Railroads;Railroads;;;
+fin_yf_industry_Diversified_Computer_Systems;Diversified Computer Systems;;;
+fin_yf_industry_Personal_Computers;Personal Computers;;;
+fin_yf_industry_Computer_Based_Systems;Computer Based Systems;;;
+fin_yf_industry_Data_Storage_Devices;Data Storage Devices;;;
+fin_yf_industry_Networking_And_Communication_Devices;Networking & Communication Devices;;;
+fin_yf_industry_Computer_Peripherals;Computer Peripherals;;;
+fin_yf_industry_Multimedia_And_Graphics_Software;Multimedia & Graphics Software;;;
+fin_yf_industry_Application_Software;Application Software;;;
+fin_yf_industry_Technical_And_System_Software;Technical & System Software;;;
+fin_yf_industry_Security_Software_And_Services;Security Software & Services;;;
+fin_yf_industry_Information_Technology_Services;Information Technology Services;;;
+fin_yf_industry_Healthcare_Information_Services;Healthcare Information Services;;;
+fin_yf_industry_Business_Software_And_Services;Business Software & Services;;;
+fin_yf_industry_Information_And_Delivery_Services;Information & Delivery Services;;;
+fin_yf_industry_Semiconductor_Broad_Line;Semiconductor - Broad Line;;;
+fin_yf_industry_Semiconductor_Memory_Chips;Semiconductor- Memory Chips;;;
+fin_yf_industry_Semiconductor_Specialized;Semiconductor - Specialized;;;
+fin_yf_industry_Semiconductor_Integrated_Circuits;Semiconductor - Integrated Circuits;;;
+fin_yf_industry_Semiconductor_Equipment_And_Materials;Semiconductor Equipment & Materials;;;
+fin_yf_industry_Printed_Circuit_Boards;Printed Circuit Boards;;;
+fin_yf_industry_Diversified_Electronics;Diversified Electronics;;;
+fin_yf_industry_Scientific_And_Technical_Instruments;Scientific & Technical Instruments;;;
+fin_yf_industry_Wireless_Communications;Wireless Communications;;;
+fin_yf_industry_Communication_Equipment;Communication Equipment;;;
+fin_yf_industry_Processing_Systems_And_Products;Processing Systems & Products;;;
+fin_yf_industry_Long_Distance_Carriers;Long Distance Carriers;;;
+fin_yf_industry_Telecom_Services_Domestic;Telecom Services - Domestic;;;
+fin_yf_industry_Telecom_Services_Foreign;Telecom Services - Foreign;;;
+fin_yf_industry_Diversified_Communication_Services;Diversified Communication Services;;;
+fin_yf_industry_Internet_Service_Providers;Internet Service Providers;;;
+fin_yf_industry_Internet_Information_Providers;Internet Information Providers;;;
+fin_yf_industry_Internet_Software_And_Services;Internet Software & Services;;;
+fin_yf_industry_Foreign_Utilities;Foreign Utilities;;;
+fin_yf_industry_Electric_Utilities;Electric Utilities;;;
+fin_yf_industry_Gas_Utilities;Gas Utilities;;;
+fin_yf_industry_Diversified_Utilities;Diversified Utilities;;;
+fin_yf_industry_Water_Utilities;Water Utilities;;;

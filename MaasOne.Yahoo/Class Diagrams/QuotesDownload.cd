@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MaasOne.Base.ConnectionInfo">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Base.DownloadEventArgs">
+    <Position X="4.75" Y="2.75" Width="1.75" />
+    <Members>
+      <Method Name="DownloadEventArgs" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MaasOne.Base.DownloadClient&lt;T&gt;">
+    <Position X="1.25" Y="2.5" Width="2.25" />
+    <Members>
+      <Method Name="ConvertDownloadCompletedEventArgs" Hidden="true" />
+      <Method Name="ConvertResponse" Hidden="true" />
+      <Method Name="ConvertResult" Hidden="true" />
+      <Method Name="Download" Hidden="true" />
+      <Method Name="DownloadClient" Hidden="true" />
+      <Method Name="SetSettings" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Delegate Name="MaasOne.Base.DownloadClient&lt;T&gt;.AsyncDownloadCompletedEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.QuotesDownload">
+    <Position X="1" Y="7.5" Width="2.75" />
+    <Members>
+      <Method Name="QuotesDownload" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAEgAAAAAAA=</HashCode>
+      <FileName>Finance\YahooFinance\QuotesDownload.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.QuotesData">
+    <Position X="15.25" Y="5.25" Width="1.75" />
+    <Members>
+      <Property Name="Change" Hidden="true" />
+      <Property Name="ChangeInPercent" Hidden="true" />
+      <Property Name="DaysHigh" Hidden="true" />
+      <Property Name="DaysLow" Hidden="true" />
+      <Property Name="LastTradeDate" Hidden="true" />
+      <Property Name="LastTradePriceOnly" Hidden="true" />
+      <Property Name="LastTradeTime" Hidden="true" />
+      <Field Name="mValues" Hidden="true" />
+      <Property Name="Open" Hidden="true" />
+      <Property Name="PreviewClose" Hidden="true" />
+      <Method Name="SetID" Hidden="true" />
+      <Property Name="Volume" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAICAACgAQAAQAAABAAABAAAIgAAAgABI=</HashCode>
+      <FileName>Finance\YahooFinance\QuotesDownload.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Finance.QuotesBaseData">
+    <Position X="15.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Base.DownloadCompletedEventArgs&lt;T&gt;">
+    <Position X="4.75" Y="4.75" Width="1.75" />
+    <Members>
+      <Method Name="DownloadCompletedEventArgs" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Response" />
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Base.Response&lt;T&gt;">
+    <Position X="9" Y="4.75" Width="1.75" />
+    <Members>
+      <Method Name="Response" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Connection" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Base.SettingsBase" Collapsed="true">
+    <Position X="6.75" Y="7" Width="1.5" />
+    <Members>
+      <Property Name="AdditionalHeaders" Hidden="true" />
+      <Method Name="GetUrl" Hidden="true" />
+      <Method Name="SettingsBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.QuotesDownloadSettings">
+    <Position X="6.75" Y="9" Width="1.5" />
+    <Members>
+      <Method Name="GetUrl" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgAAAAAAAAAAAAAAAAAIAAAAAAAACABA=</HashCode>
+      <FileName>Finance\YahooFinance\QuotesDownload.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaasOne.Finance.YahooFinance.QuotesResult">
+    <Position X="11.75" Y="6" Width="2" />
+    <Members>
+      <Field Name="mSettings" Hidden="true" />
+      <Method Name="QuotesResult" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Settings" Type="MaasOne.Finance.YahooFinance.QuotesDownloadSettings" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="6.997" />
+        <Point X="12.75" Y="9.5" />
+        <Point X="8.25" Y="9.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>Finance\YahooFinance\QuotesDownload.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="MaasOne.Finance.YahooFinance.QuoteProperty" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QCSyAABhAAFAYFBQCjAQhCd2CKFkSGbBmM5ACAj8rII=</HashCode>
+      <FileName>Finance\YahooFinance\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

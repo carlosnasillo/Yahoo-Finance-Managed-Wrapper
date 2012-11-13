@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="AsyncDownloadCompletedEvent: parameter e is IDownloadCompletedEventArgs">
+    <Position X="4.135" Y="5.333" Height="0.75" Width="2.169" />
+  </Comment>
+  <Comment CommentText="GetResponse:&#xD;&#xA;Starts a download and returns the IResponse">
+    <Position X="3.854" Y="2.25" Height="0.75" Width="2.762" />
+  </Comment>
+  <Comment CommentText="GetObjectResult:&#xD;&#xA;Returns the downloaded and converted result Object">
+    <Position X="10.813" Y="2.385" Height="0.75" Width="2.325" />
+  </Comment>
+  <Comment CommentText="GetResponse:&#xD;&#xA;Returns the downloaded and converted IResponse">
+    <Position X="7.615" Y="4.063" Height="0.75" Width="1.95" />
+  </Comment>
+  <Comment CommentText="DownloadAsync:&#xD;&#xA;Starts an asynch download. When completed AsyncDownloadCompletedEvent raises.">
+    <Position X="2.729" Y="4.333" Height="0.75" Width="2.731" />
+  </Comment>
+  <Class Name="MaasOne.Base.SettingsBase">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <Members>
+      <Property Name="AdditionalHeaders" Hidden="true" />
+      <Property Name="GetAdditionalHeadersInternal" Hidden="true" />
+      <Method Name="GetUrl" Hidden="true" />
+      <Method Name="GetUrlInternal" Hidden="true" />
+      <Field Name="mAdditionalHeaders" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAgAEAAAAAAAgAIAAAAAAAAAABA=</HashCode>
+      <FileName>Base\DownloadClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MaasOne.Base.IResponse">
+    <Position X="8.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\IDownload.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MaasOne.Base.IDownloadCompletedEventArgs">
+    <Position X="6.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Base\IDownload.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="MaasOne.Base.IDownload">
+    <Position X="0.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIACAAAAAAAAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Base\IDownload.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Settings" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
